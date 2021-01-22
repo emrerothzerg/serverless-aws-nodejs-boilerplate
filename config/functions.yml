@@ -1,0 +1,2 @@
+functions:
+  hello: ${file(lambdas/hello/function.yml):index}

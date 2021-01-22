@@ -1,0 +1,6 @@
+index:
+  handler: lambdas/hello/function.handler
+  events:
+    - http:
+        method: GET
+        path: /hello
