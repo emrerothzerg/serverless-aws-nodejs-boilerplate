@@ -6,6 +6,12 @@ Easy boilerplate for microservices.
 
 Run `yarn` to install packages
 
+## Environment variables
+
+Go to `config` folder and rename `environment.yml.example` to `environment.yml`
+
+Add your AWS region, AWS profile for your lambdas and project name.
+
 ### Creating a new lambda
 
 Run `yarn new:lambda newLambdaName` (replace `newLambdaName` with your new lambda's name)
